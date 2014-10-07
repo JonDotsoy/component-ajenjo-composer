@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev", 
     "require": {},
-    "dev-require": {
+    "require-dev": {
         "illuminate/config": "~5.0@dev"
     },
     "autoload": {
