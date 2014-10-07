@@ -8,8 +8,9 @@
             "web": "http://jonad.in/"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
+    "minimum-stability": "dev", 
+    "require": {},
+    "dev-require": {
         "illuminate/config": "~5.0@dev"
     },
     "autoload": {
