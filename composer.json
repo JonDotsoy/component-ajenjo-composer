@@ -1,5 +1,6 @@
 {
     "name": "alfa30/component-ajenjo-composer",
+    "version": "0.1.0",
     "license": "MIT",
     "authors": [
         {
@@ -8,7 +9,7 @@
             "web": "http://jonad.in/"
         }
     ],
-    "minimum-stability": "dev", 
+    "minimum-stability": "stable", 
     "require": {},
     "require-dev": {
         "illuminate/config": "~5.0@dev"
