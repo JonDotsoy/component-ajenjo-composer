@@ -1,0 +1,20 @@
+{
+    "name": "alfa30/component-ajenjo-composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Delgado Zamorano",
+            "email": "jonad.correo@gmail.com",
+            "web": "http://jonad.in/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/config": "~5.0@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "app\\src\\"
+        ]
+    }
+}
