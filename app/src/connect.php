@@ -1,6 +1,6 @@
 <?php
 
-namespace ajenjo;
+namespace ajenjo\tools;
 
 class connect {
 

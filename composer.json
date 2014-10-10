@@ -1,6 +1,6 @@
 {
     "name": "alfa30/component-ajenjo-composer",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "authors": [
         {
@@ -15,8 +15,8 @@
         "illuminate/config": "~5.0@dev"
     },
     "autoload": {
-        "classmap": [
-            "app\\src\\"
-        ]
+        "psr-0": {
+            "ajenjo\\tools": "app/src/"
+        }
     }
 }
