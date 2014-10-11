@@ -9,6 +9,7 @@ class connect {
 	public $token;
 	public $auth;
 	public $user;
+	public $urls;
 
 	function __construct($base_uri, $path_consult) {
 		$this->base_uri = $base_uri;
@@ -23,6 +24,7 @@ class connect {
 		if ($obj->token) {
 			$this->auth = $obj->auth;
 			$this->token = $obj->token;
+			$this->urls = $obj->urls;
 			return $this->token;
 		} else {
 			return null;
@@ -39,6 +41,7 @@ class connect {
 		$obj = json_decode($response);
 
 		$this->auth = $obj->auth;
+		$this->urls = $obj->urls;
 		if ($obj->auth) $this->user = $obj->user;
 
 		return (bool) ($this->auth);
@@ -54,6 +57,7 @@ class connect {
 		$obj = json_decode($response);
 
 		$this->auth = $obj->auth;
+		$this->urls = $obj->urls;
 		if ($obj->auth) $this->user = $obj->user;
 		else $this->user = null;
 
@@ -68,6 +72,7 @@ class connect {
 		$obj = json_decode($response);
 
 		$this->auth = $obj->auth;
+		$this->urls = $obj->urls;
 		if ($obj->auth) $this->user = $obj->user;
 		else $this->user = null;
 
